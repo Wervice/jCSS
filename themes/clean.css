@@ -1,0 +1,66 @@
+body {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+button,
+input[type="color"],
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="phone"] {
+    border-radius: 5px;
+    border-width: 0px;
+    border-style: solid;
+    padding: 7.5px;
+    background-color: #e4e4e4;
+    transition: ease-in-out 0.25s;
+}
+
+button:hover,
+input[type="color"]:hover,
+input[type="text"]:hover,
+input[type="password"]:hover,
+input[type="email"]:hover,
+input[type="phone"]:hover {
+    background-color: #c6c6c6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    padding-left: 10px;
+}
+
+p {
+    padding: 10px;
+    margin: 0px;
+}
+
+nav {
+    position: absolute;
+    top: 0px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    min-height: 15vh;
+    width: 100%;
+}
+
+a, a:hover, a:active, a::after {
+    color: #0579ec;
+}

@@ -1,8 +1,9 @@
 # jCSS
-## CSS Manipulation using JavaScript made easy
-jCSS makes CSS manipulation easy, by creating multiple functions for background, font, size and more.
+## CSS Manipulation using JavaScript & Theming made easy
+jCSS makes CSS manipulation easy, by creating multiple functions for background, font, size and more. It also comes with some themes to quickly style your website.
 jCSS is published under LGPL 2.1.
 ## How to use it?
+### CSS manipulation using JavaScript
 To use jCSS you only have to copy the code of jCSS to your website as ``.js`` file or copy the code into a `<script></script>`-tag and paste it into your html code.
 Now you can use the functions in different JavaScript scripts on your website. Theses functions are available now:
 
@@ -24,6 +25,17 @@ function jcss_...(id, value1, value2, value3, value4, ...) {
 }
 ```
 Most functions only have one value
+### Theming
+The themes are stored in the `themes`-folder.
+You can copy every theme to your website and apply it using this HTML code:
+```
+<link rel="styleshee" href="[PATH_TO_THE_THEME]">
+```
+#### List of themes
+|Name|Description|File Name|
+|-|-|-|
+|Clean|A very basic sans-serif black-and-white theme with rounded buttons and inputs|``clean.css``|
+|Sharp|A sans-serif black-and-white theme with sharp buttons and inputs|``sharp.css``|
 
 ### Theme Switch
 You can use jCSS to switch between themes, too. In your HTML-Code, you need to give your CSS-Link the `id=""`-attribute with the value "css-theme".

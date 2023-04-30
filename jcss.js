@@ -41,7 +41,7 @@ function jcss_read(id, selection) {
 }
 
 // Switch Theme
-function (jcss_set_theme_to_normal) {
+function jcss_set_theme_to_normal() {
     document.getElementById("css-theme").src = cssthemesrc
 }
 function jcss_set_theme_to_x(x) {
