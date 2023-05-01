@@ -17,9 +17,9 @@ input[type="phone"] {
     padding: 7.5px;
     background-color: #e4e4e4;
     transition: ease-in-out 0.25s;
+    margin: 5px;
 }
 
-button:hover,
 input[type="color"]:hover,
 input[type="text"]:hover,
 input[type="password"]:hover,
