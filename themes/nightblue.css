@@ -1,0 +1,88 @@
+::placeholder {
+    color: #0579ec;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    color: white;
+    background-color: #021221;
+}
+
+button,
+input[type="color"],
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="phone"] {
+    border-radius: 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #0579ec;
+    padding: 7.5px;
+    background-color: #ffffff00;
+    transition: ease-in-out 0.25s;
+    color: #0579ec;
+    margin: 5px;
+}
+
+button:hover,
+input[type="color"]:hover,
+input[type="text"]:hover,
+input[type="password"]:hover,
+input[type="email"]:hover,
+input[type="phone"]:hover {
+    background-color: #ffffff10;
+}
+
+input[type="color"]:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="phone"]:focus {
+    background-color: #ffffff20;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    padding-left: 10px;
+}
+
+p {
+    padding: 10px;
+    margin: 0px;
+}
+
+nav {
+    position: absolute;
+    top: 0px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #0579ec;
+    color: #ffffff;
+    width: 100%;
+}
+
+footer {
+    background-color: #0579ec;
+    color: #ffffff;
+    padding: 15px;
+    min-height: 15vh;
+    width: 100%;
+    border-top: #000000 solid 1px;
+}
+
+a, a:hover, a:active, a::after {
+    color: #0579ec;
+}
