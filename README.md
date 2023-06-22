@@ -1,11 +1,6 @@
 # jCSS
 ## CSS Mainipulation library for client-side JavaScript
 
-<br>
-<img src=./star_this.png height=30>
-<img src=./lgpl.png height=30>
-<br><br>
-
 Using jCSS you can manipulate the style on your website easily from your JavaScript code.
 jCSS also comes with some custom themes to quickly give your frontend a nice look.
 
