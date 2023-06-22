@@ -1,47 +1,55 @@
 # jCSS
-## CSS Manipulation using JavaScript & Theming made easy
-jCSS makes CSS manipulation easy, by creating multiple functions for background, font, size and more. It also comes with some themes to quickly style your website.
-jCSS is published under LGPL 2.1.
-## How to use it?
-### CSS manipulation using JavaScript
-To use jCSS you only have to copy the code of jCSS to your website as ``.js`` file or copy the code into a `<script></script>`-tag and paste it into your html code.
-Now you can use the functions in different JavaScript scripts on your website. Theses functions are available now:
+## CSS Mainipulation library for client-side JavaScript
 
-|Function|Function|
+<br>
+<img src=./star_this.png height=30>
+<img src=./lgpl.png height=30>
+<br><br>
+
+Using jCSS you can manipulate the style on your website easily from your JavaScript code.
+jCSS also comes with some custom themes to quickly give your frontend a nice look.
+
+jCSS is licensed under LGPL 2.1.
+
+## Contents
+- [Use CSS manipulation](#how-can-i-use-jcss)
+- [Apply and swizch a theme](#how-can-i-use-a-theme)
+
+
+## How can I use jCSS
+You need to copy the code from the `jcss.js` file to your code.
+
+When you're done with that step, you can uses the features of jCSS.
+
+Here is a table of all functions and the usescases:
+
+|Function|Usecase|
 |-|-|
-|jcss_background|Edit the background color an object|
-|jcss_color|Edit the font color an object|
-|jcss_font|Edit the font size, font family, font weight and font style|
-|jcss_size|Edit the height and width of an object|
-|jcss_position|Edit the css position value of an object|
-|jcss_border|Edit the border color, border style, border width and border radius of an object|
-|jcss_boxshadow|Edit the box shadow of an object|
-|jcss_read|Read a css value of an object|
+|**jcss_background**|Edit the background color an object|
+|**jcss_color**|Edit the font color an object|
+|**jcss_font**|Edit the font size, font family, font weight and font style|
+|**jcss_size**|Edit the height and width of an object|
+|**jcss_position**|Edit the css position value of an object|
+|**jcss_border**|Edit the border color, border style, border width and border radius of an object|
+|**jcss_boxshadow**|Edit the box shadow of an object|
+|**jcss_read**|Read a css value of an object|
 
-A function is build like this:
-```
-function jcss_...(id, value1, value2, value3, value4, ...) {
-    ...
-}
-```
-Most functions only have one value
-### Theming
-The themes are stored in the `themes`-folder.
-You can copy every theme to your website and apply it using this HTML code:
-```
-<link rel="styleshee" href="[PATH_TO_THE_THEME]">
-```
-#### List of themes
+### How can I use a theme
+To apply one of the themes from jCSS to your website, you need to copy the file to your code folder.
+
+Now you can need to link to it using the `<link rel=stylesheet href=...>`-tag.
+
+Here are the themes you can use:
 |Name|Description|File Name|
 |-|-|-|
-|Clean|A very basic sans-serif black-and-white theme with rounded buttons and inputs|``clean.css``|
-|Sharp|A sans-serif black-and-white theme with sharp buttons and inputs|``sharp.css``|
-|Thin|A sans-serif theme with sharp buttons & inputs and thin black lines|``thin.css``|
-|Night Blue|A dark sans-serif blue sharp theme|``nightblue.css``|
+|**Clean**|A very basic sans-serif black-and-white theme with rounded buttons and inputs|``clean.css``|
+|**Sharp**|A sans-serif black-and-white theme with sharp buttons and inputs|``sharp.css``|
+|**Thin**|A sans-serif theme with sharp buttons & inputs and thin black lines|``thin.css``|
+|**Night Blue**|A dark sans-serif blue sharp theme|``nightblue.css``|
 
-### Theme Switch
-You can use jCSS to switch between themes, too. In your HTML-Code, you need to give your CSS-Link the `id=""`-attribute with the value "css-theme".
+In case you want to use the theme_switching function to, so you can change the theme from your JavaScript code, you need to add `id=css-theme` to your link tag.
 
+And these are the functions for theme switching
 Now you can use the functions
 ```
 jcss_set_theme_to_x(x)
